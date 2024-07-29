@@ -47,9 +47,9 @@ Les validations sont effectuées en temps réel et les messages d'erreur apparai
 Après avoir correctement rempli tous les champs, cliquez sur le bouton "S'inscrire" pour soumettre le formulaire.
 
 ## Technologies Utilisées
-React : Bibliothèque JavaScript pour construire des interfaces utilisateur.
-CSS : Pour la mise en page et le style du formulaire.
-HTML5 : Structure du contenu du formulaire.
-JavaScript : Logique de validation du formulaire et gestion des états.
+- React : Bibliothèque JavaScript pour construire des interfaces utilisateur.
+- CSS : Pour la mise en page et le style du formulaire.
+- HTML5 : Structure du contenu du formulaire.
+- JavaScript : Logique de validation du formulaire et gestion des états.
 
 Développé avec ❤️ par Sidney NGUYEN
