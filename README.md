@@ -23,33 +23,34 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/VolkNGN/Registration-Form.git
-
+   ```
 
 2. Accédez au répertoire du projet :
-    ```bash
-    cd registration-form-react
-
+   ```bash
+   cd registration-form-react
+   ```
 
 3. Installez les dépendances :
-  ```bash
-  npm install
-
+   ```bash
+   npm install
+   ```
 
 4. Démarrez le serveur de développement :
-    ```bash
-  npm start
-
+   ```bash
+   npm start
+   ```
 
 ## Utilisation
 
-Remplissez les champs du formulaire avec les informations demandées.
-Les validations sont effectuées en temps réel et les messages d'erreur apparaissent sous les champs correspondants en cas de saisie invalide.
-Après avoir correctement rempli tous les champs, cliquez sur le bouton "S'inscrire" pour soumettre le formulaire.
+- Remplissez les champs du formulaire avec les informations demandées.
+- Les validations sont effectuées en temps réel et les messages d'erreur apparaissent sous les champs correspondants en cas de saisie invalide.
+- Après avoir correctement rempli tous les champs, cliquez sur le bouton "S'inscrire" pour soumettre le formulaire.
 
 ## Technologies Utilisées
-- React : Bibliothèque JavaScript pour construire des interfaces utilisateur.
-- CSS : Pour la mise en page et le style du formulaire.
-- HTML5 : Structure du contenu du formulaire.
-- JavaScript : Logique de validation du formulaire et gestion des états.
+
+- **React** : Bibliothèque JavaScript pour construire des interfaces utilisateur.
+- **CSS** : Pour la mise en page et le style du formulaire.
+- **HTML5** : Structure du contenu du formulaire.
+- **JavaScript** : Logique de validation du formulaire et gestion des états.
 
 Développé avec ❤️ par Sidney NGUYEN
