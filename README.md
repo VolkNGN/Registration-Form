@@ -37,7 +37,7 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
 
 4. Démarrez le serveur de développement :
     ```bash
- npm start
+  npm start
 
 
 ## Utilisation
