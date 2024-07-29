@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Formulaire d'Inscription React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Ce projet est un formulaire d'inscription développé avec React. Il permet aux utilisateurs de s'inscrire en fournissant des informations telles que leur nom, prénom, date de naissance, email, mot de passe et confirmation de mot de passe. Le formulaire inclut des validations de champ pour garantir la conformité des données saisies.
 
-In the project directory, you can run:
+## Fonctionnalités
 
-### `npm start`
+- **Formulaire de saisie** : Collecte des informations utilisateur (nom, prénom, date de naissance, email, mot de passe, confirmation de mot de passe).
+- **Validations de champ** :
+  - Vérification de l'âge minimum de 18 ans.
+  - Validation de la structure de l'email.
+  - Validation du mot de passe (minimum 8 caractères, contenant au moins une majuscule, une minuscule, un chiffre et un symbole).
+  - Vérification de la correspondance des mots de passe.
+- **Messages d'erreur** : Affichage des messages d'erreur personnalisés pour les champs invalides.
+- **Infobulles** : Fournissent des informations supplémentaires sur les exigences du mot de passe.
+- **Arrière-plan animé** : Un arrière-plan animé est inclus pour améliorer l'apparence visuelle de la page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous :
 
-### `npm test`
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/votre-nom-utilisateur/registration-form-react.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Accédez au répertoire du projet :
+cd registration-form-react
 
-### `npm run build`
+Copier le code
+cd registration-form-react
+Installez les dépendances :
+bash
+Copier le code
+npm install
+Démarrez le serveur de développement :
+bash
+Copier le code
+npm start
+Utilisation
+Remplissez les champs du formulaire avec les informations demandées.
+Les validations sont effectuées en temps réel et les messages d'erreur apparaissent sous les champs correspondants en cas de saisie invalide.
+Après avoir correctement rempli tous les champs, cliquez sur le bouton "S'inscrire" pour soumettre le formulaire.
+Technologies Utilisées
+React : Bibliothèque JavaScript pour construire des interfaces utilisateur.
+CSS : Pour la mise en page et le style du formulaire.
+HTML5 : Structure du contenu du formulaire.
+JavaScript : Logique de validation du formulaire et gestion des états.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Développé avec ❤️ par Sidney NGUYEN
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
