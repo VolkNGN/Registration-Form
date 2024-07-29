@@ -15,6 +15,8 @@ Ce projet est un formulaire d'inscription développé avec React. Il permet aux 
 - **Messages d'erreur** : Affichage des messages d'erreur personnalisés pour les champs invalides.
 - **Infobulles** : Fournissent des informations supplémentaires sur les exigences du mot de passe.
 - **Arrière-plan animé** : Un arrière-plan animé est inclus pour améliorer l'apparence visuelle de la page.
+- **Redux** : Utilisation de Redux pour gérer l'état global du formulaire.
+- **Persisted State** : Les données du formulaire sont stockées dans le `localStorage` pour persister entre les sessions
 
 ## Installation
 
@@ -52,5 +54,6 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
 - **CSS** : Pour la mise en page et le style du formulaire.
 - **HTML5** : Structure du contenu du formulaire.
 - **JavaScript** : Logique de validation du formulaire et gestion des états.
+- **ReduxToolKit**: L'état global de l'application est géré par Redux Toolkit. Les données du formulaire sont stockées dans un slice Redux et persistées dans le localStorage pour assurer leur disponibilité entre les sessions.
 
 Développé avec ❤️ par Sidney NGUYEN
