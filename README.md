@@ -24,13 +24,16 @@ Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous 
    ```bash
    git clone https://github.com/VolkNGN/Registration-Form.git
 
+
 2. Accédez au répertoire du projet :
     ```bash
     cd registration-form-react
 
+
 3. Installez les dépendances :
   ```bash
   npm install
+
 
 4. Démarrez le serveur de développement :
     ```bash
