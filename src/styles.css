@@ -66,7 +66,7 @@ input:focus {
 .error-message {
   color: #db504a;
   font-weight: bold;
-  font-size: 0.875em;
+  font-size: 1em;
   margin-top: 5px;
 }
 
