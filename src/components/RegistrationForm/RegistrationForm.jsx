@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { useDispatch, useSelector } from 'react-redux';
 import { submitForm } from '../../FormSlice';
 
+// Composant du formulaire d'inscription
 const RegistrationForm = () => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const dispatch = useDispatch();

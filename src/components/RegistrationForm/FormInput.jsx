@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Composant FormInput pour les champs de formulaire
+// Composant d'entrée de formulaire générique
 const FormInput = ({ label, type, name, register, required, pattern, validate, minLength, error }) => (
   <div className="form-group">
     <label htmlFor={name}>{label}</label>
