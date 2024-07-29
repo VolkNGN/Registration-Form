@@ -11,7 +11,7 @@ body {
 
 .app {
   background: rgba(255, 255, 255, 0.1);
-  padding: 20px 40px;
+  padding: 30px 50px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
@@ -65,18 +65,20 @@ input:focus {
 
 .error-message {
   color: #db504a;
+  font-weight: bold;
   font-size: 0.875em;
   margin-top: 5px;
 }
 
 .submit-button {
-  padding: 10px 15px;
+  padding: 10px;
   background-color: #db504a;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
+  margin-top: 10px;
 }
 
 .submit-button:hover {
